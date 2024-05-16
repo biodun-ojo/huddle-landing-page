@@ -11,7 +11,7 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; padding-top: 0;}
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
   </style>
 </head>
 <body>
@@ -35,28 +35,34 @@
   </header>
 
   <section class="three-articles">
-    <article class="section-1-articles">
+    <article class="section-1-articles" id="articles-1">
       <img src="images/illustration-grow-together.svg">
-      <h3>Grow Together</h3>
-      <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
-        Think of the insightful conversations you miss out on with a feedback form.
-      </p> 
+      <div class="article-div">
+        <h3>Grow Together</h3>
+        <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form.
+        </p> 
+      </div>
     </article>
   
-    <article class="section-1-articles">  
+    <article class="section-1-articles" id="articles-2">  
       <img src="images/illustration-flowing-conversation.svg">
-      <h3>Flowing Conversations</h3>
-      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-        have just-in-time loading for a more natural flow.
-      </p>
+      <div class="article-div-2">
+        <h3>Flowing Conversations</h3>
+        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+          have just-in-time loading for a more natural flow.
+        </p>
+      </div>
     </article>
   
-    <article class="section-1-articles">
+    <article class="section-1-articles" id="articles-3">
       <img src="images/illustration-your-users.svg">
-      <h3>Your Users</h3>
-      <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
-        This means, once signed in to your app, your users can start chatting immediately.
-      </p>
+      <div class="article-div">
+        <h3>Your Users</h3>
+        <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
+          This means, once signed in to your app, your users can start chatting immediately.
+        </p>
+      </div>
     </article>
   </section>
 
@@ -97,11 +103,11 @@
         <img src="images/instagram.svg">
       </article>
       <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Oretoluwase</a>.
+      </p>
     </section>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
   </footer>
 </body>
 </html>
