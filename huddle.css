@@ -145,8 +145,9 @@ footer {
     margin-bottom: 30px;
 }
 
-.footer-section-1 img {
+.footer-section-1 > img {
     margin-bottom: 20px;
+    width: 150px;
 }
 
 .footer-section-1 > div {
@@ -185,6 +186,10 @@ footer {
     text-align: center;
     margin-top: 30px;
     font-size: 12px;
+}
+
+.footer-svg {
+    margin: 20px 0 20px 0;
 }
 
 .footer-svg > img {
